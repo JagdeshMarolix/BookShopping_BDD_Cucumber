@@ -7,8 +7,8 @@ public class LoginPage {
 	private WebDriver driver;
 	
 	//1. By locators
-	private By emailId = By.xpath("//input[@id='reg_email']");
-	private By password = By.id("reg_password");
+	private By emailId = By.xpath("//input[@id='username']");
+	private By password = By.xpath("//input[@id='password']");
 	private By LogInButton = By.xpath("//input[@name='login']");
 	private By ForgotPwdLink = By.xpath("//a[normalize-space()='Lost your password?']");
 	
@@ -38,6 +38,17 @@ public class LoginPage {
 	
 	public void clickOnLogin() {
 		driver.findElement(LogInButton).click();
+	}
+	public AccountsPage doLogin(String un, String pwd) {
+		System.out.println("login with: " + un + "and" + pwd);
+		driver.findElement(emailId).sendKeys(un);
+		driver.findElement(password).sendKeys(pwd);
+		driver.findElement(LogInButton).click();
+		return new AccountsPage(driver);
+
+
+
+		
 	}
 	
 }

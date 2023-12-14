@@ -16,11 +16,12 @@ public class DriverFactory {
 		
 		if(browser.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-//			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
 			tlDriver.set(new ChromeDriver());
 		}
 		else if(browser.equals("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webddriver.gecko.driver","./geckodriver.exe");		
+			/*WebDriverManager.firefoxdriver().setup();*/
 			tlDriver.set(new FirefoxDriver());
 		}
 		else {

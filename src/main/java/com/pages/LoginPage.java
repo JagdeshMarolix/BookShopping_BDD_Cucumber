@@ -10,7 +10,7 @@ public class LoginPage {
 	private By emailId = By.xpath("//input[@id='username']");
 	private By password = By.xpath("//input[@id='password']");
 	private By LogInButton = By.xpath("//input[@name='login']");
-	private By ForgotPwdLink = By.xpath("//a[normalize-space()='Lost your password?']");
+	private By ForgotPwdLink = By.xpath("//a[normalize-space()='Lost your password?']222");
 	
 	//2. Constructor of the page class
 	public LoginPage(WebDriver driver) {

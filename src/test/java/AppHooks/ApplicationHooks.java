@@ -33,10 +33,13 @@ public class ApplicationHooks {
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
 	}
-	@After(order = 0)
-	public void quitBrowser() {
-		driver.quit();
-	}
+
+	
+	  @After(order = 0) 
+	  public void quitBrowser() { 
+		  driver.quit(); 
+	  }
+	 
 	@After(order = 1)
 	public void tearDown(Scenario scenario) {
 		if(scenario.isFailed()) {

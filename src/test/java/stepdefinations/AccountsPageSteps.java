@@ -3,7 +3,7 @@ package stepdefinations;
 import java.util.List;
 import java.util.Map;
 
-import org.testng.Assert;
+import org.junit.Assert;
 
 import com.pages.AccountsPage;
 import com.pages.LoginPage;

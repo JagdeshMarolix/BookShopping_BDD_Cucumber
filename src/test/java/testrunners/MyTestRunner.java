@@ -10,14 +10,15 @@ import io.cucumber.junit.CucumberOptions;
 		features = {"./src/test/resource/AppFeatures"},
 		glue = {"stepdefinations", "AppHooks"},
 		plugin = {"pretty", 
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"timeline:test-output-thread/"
 				}
 		
 		)
 
 public class MyTestRunner {
 	
-
+																									
 	
 	
 }

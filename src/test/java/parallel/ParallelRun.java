@@ -1,26 +1,31 @@
-package testrunners;
+package parallel;
 
-import org.junit.internal.runners.JUnit38ClassRunner;
 import org.junit.runner.RunWith;
 import org.testng.annotations.DataProvider;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import junit.framework.Test;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"./src/test/resource/AppFeatures"},
-		glue = {"stepdefinations", "AppHooks"},
+		features = {"./src/test/resource/parallel"},
+		glue = {"parallel"},
 		plugin = {"pretty", 
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"
 				}
 		
-		)
+		)	
 
-public class MyTestRunner 	{																								
+public class ParallelRun extends AbstractTestNGCucumberTests {
 	
-	
+	  @Override
+	  
+	  @DataProvider (parallel = true) // very important step for parallel execution.
+	  public Object[][] scenarios() { 
+		  return super.scenarios();
+	  
+	  }
+	 
 }

@@ -10,4 +10,5 @@ Feature: Subscribe Letter feature
       | SheetName       | RowNumber |
       | SubscribeLetter |         0 |
       | SubscribeLetter |         1 |
-      | SubsribeLetter  |         2 |
+      | SubscribeLetter |         2 |
+      | SubscribeLetter |         3 |

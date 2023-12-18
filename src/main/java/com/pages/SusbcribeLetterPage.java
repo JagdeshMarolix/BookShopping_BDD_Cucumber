@@ -22,8 +22,8 @@ public class SusbcribeLetterPage {
 	}
 	//3. Page Class
 	
-	public void addEmailAddress(String heading, String emailId) {
-		driver.findElement(emailAddressField).sendKeys(emailId);	
+	public void addEmailAddress(String heading) {
+		driver.findElement(emailAddressField).sendKeys(heading);	
 	}
 	public void clickSubscribe() {
 		driver.findElement(subscribeButton).click();

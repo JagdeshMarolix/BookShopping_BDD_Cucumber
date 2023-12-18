@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-15T05:44:29Z" name="Default suite" finished-at="2023-12-15T05:45:36Z" duration-ms="66471">
+  <suite started-at="2023-12-18T03:06:00Z" name="Default suite" finished-at="2023-12-18T03:07:56Z" duration-ms="116503">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-12-15T05:44:29Z" name="Default test" finished-at="2023-12-15T05:45:36Z" duration-ms="66471">
+    <test started-at="2023-12-18T03:06:00Z" name="Default test" finished-at="2023-12-18T03:07:56Z" duration-ms="116503">
       <class name="parallel.ParallelRun">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:29Z" name="setUpClass" finished-at="2023-12-15T05:44:30Z" duration-ms="685" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:00Z" name="setUpClass" finished-at="2023-12-18T03:06:01Z" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:34Z" duration-ms="64168" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Accounts section count"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Dashboard Page Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:27Z" duration-ms="56970" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:06:11Z" duration-ms="10204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,39 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:30Z" duration-ms="59748" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Accounts page title"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Dashboard Page Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:31Z" duration-ms="60849" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with correct credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login page feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:31Z" duration-ms="61378" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:06:22Z" duration-ms="10863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:13Z" duration-ms="43270" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:06:30Z" duration-ms="8005" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:44:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T05:45:30Z" duration-ms="59828" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:06:37Z" duration-ms="7432" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,30 +75,60 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:06:47Z" duration-ms="9878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:06:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:07:02Z" duration-ms="15223" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Subscribe Letter scenario with different email addresses"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Subscribe Letter feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //a[normalize-space()='Lost your password?']222 because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[normalize-space()='Lost your password?']222' is not a valid XPath expression.
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Thank you, your sign-up request was successful! Pl')]"}
   (Session info: chrome=120.0.6099.72)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-N8U10C0', ip: '192.168.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+System info: host: 'DESKTOP-N8U10C0', ip: '192.168.0.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ea16aa437336b0f68dbf27362efcd5
-*** Element info: {Using=xpath, value=//a[normalize-space()='Lost your password?']222}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1ce899f280dc5b6e29a28284a5829f
+*** Element info: {Using=xpath, value=//p[contains(text(),'Thank you, your sign-up request was successful! Pl')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[normalize-space()='Lost your password?']222 because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[normalize-space()='Lost your password?']222' is not a valid XPath expression.
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Thank you, your sign-up request was successful! Pl')]"}
   (Session info: chrome=120.0.6099.72)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-N8U10C0', ip: '192.168.0.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+System info: host: 'DESKTOP-N8U10C0', ip: '192.168.0.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ea16aa437336b0f68dbf27362efcd5
-*** Element info: {Using=xpath, value=//a[normalize-space()='Lost your password?']222}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1ce899f280dc5b6e29a28284a5829f
+*** Element info: {Using=xpath, value=//p[contains(text(),'Thank you, your sign-up request was successful! Pl')]}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -160,16 +142,80 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.pages.LoginPage.isForgotPwdLinkExist(LoginPage.java:28)
-at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:38)
-at ✽.forgot your password link should be displayed(classpath:parallel/LoginPage.feature:10)
+at com.pages.SusbcribeLetterPage.getSuccessMesg(SusbcribeLetterPage.java:32)
+at parallel.SubscribeLetterPageSteps.it_shows_a_successful_message(SubscribeLetterPageSteps.java:47)
+at ✽.it shows a successful message "Thank you, your sign-up request was successful! Please check your email inbox to confirm."(classpath:parallel/SubscribeLetter.feature:7)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-15T05:45:34Z" name="tearDownClass" finished-at="2023-12-15T05:45:36Z" duration-ms="1576" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:07:02Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:07:16Z" duration-ms="13792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Subscribe Letter scenario with different email addresses"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Subscribe Letter feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:07:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:07:29Z" duration-ms="12621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Subscribe Letter scenario with different email addresses"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Subscribe Letter feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:07:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:07:41Z" duration-ms="12752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Dashboard Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:07:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-18T03:07:54Z" duration-ms="13066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Dashboard Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@4d15107f]" started-at="2023-12-18T03:07:54Z" name="tearDownClass" finished-at="2023-12-18T03:07:56Z" duration-ms="1948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

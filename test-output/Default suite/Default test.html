@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 15 11:14:29 IST 2023</td>
+<td>Started on:</td><td>Mon Dec 18 08:36:00 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66471 ms)</td>
+<tr><td>Total time:</td><td>116 seconds (116503 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password link", "Optional[Login page feature]"</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[normalize-space()=&apos;Lost your password?&apos;]222 because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[normalize-space()=&apos;Lost your password?&apos;]222&apos; is not a valid XPath expression.
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Subscribe Letter scenario with different email addresses", "Optional[Subscribe Letter feature]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Thank you, your sign-up request was successful! Pl&apos;)]&quot;}
   (Session info: chrome=120.0.6099.72)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N8U10C0&apos;, ip: &apos;192.168.0.159&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+System info: host: &apos;DESKTOP-N8U10C0&apos;, ip: &apos;192.168.0.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ea16aa437336b0f68dbf27362efcd5
-*** Element info: {Using=xpath, value=//a[normalize-space()=&apos;Lost your password?&apos;]222}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1ce899f280dc5b6e29a28284a5829f
+*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Thank you, your sign-up request was successful! Pl&apos;)]}
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -99,20 +98,19 @@ Session ID: 64ea16aa437336b0f68dbf27362efcd5
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.pages.LoginPage.isForgotPwdLinkExist(LoginPage.java:28)
-	at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:38)
-	at ✽.forgot your password link should be displayed(classpath:parallel/LoginPage.feature:10)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1205786979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1205786979'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[normalize-space()=&apos;Lost your password?&apos;]222 because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[normalize-space()=&apos;Lost your password?&apos;]222&apos; is not a valid XPath expression.
+	at com.pages.SusbcribeLetterPage.getSuccessMesg(SusbcribeLetterPage.java:32)
+	at parallel.SubscribeLetterPageSteps.it_shows_a_successful_message(SubscribeLetterPageSteps.java:47)
+	at ✽.it shows a successful message &quot;Thank you, your sign-up request was successful! Please check your email inbox to confirm.&quot;(classpath:parallel/SubscribeLetter.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1500821480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1500821480'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Thank you, your sign-up request was successful! Pl&apos;)]&quot;}
   (Session info: chrome=120.0.6099.72)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N8U10C0&apos;, ip: &apos;192.168.0.159&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+System info: host: &apos;DESKTOP-N8U10C0&apos;, ip: &apos;192.168.0.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ea16aa437336b0f68dbf27362efcd5
-*** Element info: {Using=xpath, value=//a[normalize-space()=&apos;Lost your password?&apos;]222}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.72, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1ce899f280dc5b6e29a28284a5829f
+*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Thank you, your sign-up request was successful! Pl&apos;)]}
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -126,11 +124,11 @@ Session ID: 64ea16aa437336b0f68dbf27362efcd5
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.pages.LoginPage.isForgotPwdLinkExist(LoginPage.java:28)
-	at parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:38)
-	at ✽.forgot your password link should be displayed(classpath:parallel/LoginPage.feature:10)
+	at com.pages.SusbcribeLetterPage.getSuccessMesg(SusbcribeLetterPage.java:32)
+	at parallel.SubscribeLetterPageSteps.it_shows_a_successful_message(SubscribeLetterPageSteps.java:47)
+	at ✽.it shows a successful message &quot;Thank you, your sign-up request was successful! Please check your email inbox to confirm.&quot;(classpath:parallel/SubscribeLetter.feature:7)
 </pre></div></td>
-<td>59</td>
+<td>15</td>
 <td>parallel.ParallelRun@4d15107f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -141,34 +139,49 @@ Session ID: 64ea16aa437336b0f68dbf27362efcd5
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Dashboard Page Feature]"</td>
+<td></td>
+<td>10</td>
+<td>parallel.ParallelRun@4d15107f</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts section count", "Optional[Dashboard Page Feature]"</td>
+<td></td>
+<td>10</td>
+<td>parallel.ParallelRun@4d15107f</td></tr>
+<tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login page title", "Optional[Login page feature]"</td>
 <td></td>
-<td>43</td>
+<td>8</td>
 <td>parallel.ParallelRun@4d15107f</td></tr>
 <tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Dashboard Page Feature]"</td>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Forgot Password link", "Optional[Login page feature]"</td>
 <td></td>
-<td>56</td>
-<td>parallel.ParallelRun@4d15107f</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Dashboard Page Feature]"</td>
-<td></td>
-<td>59</td>
+<td>7</td>
 <td>parallel.ParallelRun@4d15107f</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct credentials", "Optional[Login page feature]"</td>
 <td></td>
-<td>60</td>
+<td>9</td>
+<td>parallel.ParallelRun@4d15107f</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Subscribe Letter scenario with different email addresses", "Optional[Subscribe Letter feature]"</td>
+<td></td>
+<td>13</td>
+<td>parallel.ParallelRun@4d15107f</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Subscribe Letter scenario with different email addresses", "Optional[Subscribe Letter feature]"</td>
+<td></td>
+<td>12</td>
+<td>parallel.ParallelRun@4d15107f</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[Dashboard Page Feature]"</td>
+<td></td>
+<td>12</td>
 <td>parallel.ParallelRun@4d15107f</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts section count", "Optional[Dashboard Page Feature]"</td>
 <td></td>
-<td>61</td>
-<td>parallel.ParallelRun@4d15107f</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts section count", "Optional[Dashboard Page Feature]"</td>
-<td></td>
-<td>64</td>
+<td>13</td>
 <td>parallel.ParallelRun@4d15107f</td></tr>
 </table><p>
 </body>

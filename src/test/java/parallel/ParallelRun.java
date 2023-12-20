@@ -9,13 +9,14 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"./src/test/resource/parallel/LoginPage.feature"},
+		features = {"src/test/resource/parallel/LoginPage.feature"},
 		 glue = {"parallel"}, 
 		plugin = {"pretty", 
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/",
-				"rerun:target/failedrun.txt"
+				"rerun:target/failedrerun.txt"
 				}
+		/*tags = "not @Skip"*/
 		
 		)	
 
